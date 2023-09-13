@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: #FFF3DA;
+    border-radius: 14px;
+    padding: 2rem 7rem;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.1);
+}
+
+h2, p{
+    text-align: center;
+}
+
+.btn{
+    background-color: #BEADFA;
+}
+
+.btn:hover{
+    background-color: aliceblue;
+}
